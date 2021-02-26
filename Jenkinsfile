@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello Build'
+                echo 'Hello Build git'
             }
         }
         stage('Depoly') {
             steps {
-                echo 'Hello Dep'
+                echo 'Hello Dep git'
             }
         }
         stage('Test') {
             steps {
-                echo 'Hello Test'
+                echo 'Hello Test git'
             }
         }
         stage('Release') {
             steps {
-                echo 'Hello Release'
+                echo 'Hello Release git'
             }
         }
     }
